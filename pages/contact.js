@@ -1,12 +1,12 @@
 import Head from 'next/head'
-// import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Image from 'next/image'
+// import { Inter } from 'next/font/google'
 import {Button, EditIcon} from '@/components/mui'
 import Layout from '@/components/Layout'
 
 // const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <Head>
@@ -15,12 +15,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout>
-        <h1>Home Page</h1>
-        <Button variant="contained">
-          <EditIcon/>
-          Button
-          </Button>
+      <Layout >
+        <h1>Contact Us</h1>
+        <Button variant="contained"><EditIcon/>Button</Button>
       </Layout>
     </>
   )
